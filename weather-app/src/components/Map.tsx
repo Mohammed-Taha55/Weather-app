@@ -56,7 +56,7 @@ function MapTileLayer(){
 
   useEffect(()=>{
 const tileLayer = new MaptilerLayer({
-  style:"basic-dark",
+  style:"https://api.maptiler.com/maps/streets-v2-dark/style.json?key=E3OQf2RidiO5exMGnhfE",
   apiKey:"E3OQf2RidiO5exMGnhfE"})
 tileLayer.addTo(map)
 return () => {
